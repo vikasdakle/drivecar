@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://driving-zuz4.onrender.com",
+    origin: "https://poised-bull-fedora.cyclic.app",
     credentials: true
 }))
 
