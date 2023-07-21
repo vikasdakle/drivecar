@@ -12,7 +12,7 @@ app.use(cors({
     origin: "https://poised-bull-fedora.cyclic.app/api",
     credentials: true
 }))
-
+app.use(express.static("public"))
 app.use("/api/user", require("./routes/userRoutes"))
 app.use("/api/admin", require("./routes/adminRoutes"))
 
